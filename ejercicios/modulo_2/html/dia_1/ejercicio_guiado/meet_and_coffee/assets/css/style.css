@@ -1,0 +1,134 @@
+
+
+body{
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* definimos una imagen como fondo ademas se agregan propiedades a los h ,asi como color ,sombras ,fuente y alineación */
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    /* Propiedades agregadas */
+    /* se agrego ese display para elimiar el espacio entre el nav y el header */
+    display:flow-root;
+    /*  */
+    font-family: Open sans;
+    text-shadow:  3px 6px #000;
+    text-align: right;
+    color: #FFF;
+}
+/* definimos el tamaño del h1  */
+header h1{
+    font-size: 60px;
+    margin-right: 0.5em;
+}
+/* definimos el tamaño de h3 de  nuestro hero Section */
+header h3{
+    font-size:40px;
+    font-weight: lighter;
+    margin-right: 0.5em;
+}
+/* definimos el color de la seccion y el texto, padding y ancho con margen al wrapper para centrarlo */
+
+#Proxima-Charla{
+    background: #a4452c;
+    padding: 100px;
+    color:#FFF;
+}
+
+#Proxima-Charla .wrapper{
+    width: 800px;
+    margin: auto;
+}
+/* definimos el ancho que tendra cada parte de la imagen y el div con clase texto */
+.wrapper img{
+    width: 25%;
+}
+.wrapper .texto{
+    text-align: left;
+    width: 70%;
+    /* margin-left: 4%; */
+}
+/* utilizamos inline-block  para colocar la imagen junto al texto*/
+.wrapper img, .texto{
+    display: inline-block;
+    vertical-align: middle;
+}
+/* le cambiamos el tamaño al icono */
+.icono{
+    width:2rem;
+}
+/* creamos un selector que apunte al svg y asi poder cambiar su color */
+.icono svg{
+    fill: #ffffff;
+}
+
+/* aplicamos estilos al footer */
+footer{
+    font-family:'Open Sans',sans-serif;
+    text-align: center;
+    background:#000f08;
+    color:#FFFFFF;
+    padding:20px;
+}
+/* le damos tamaño a los iconos del footer */
+i{
+    font-size:30px;
+}
+/* cambiamos el color de fondo y alineación */
+nav{
+    padding: 0;
+    background:#000f08;
+    text-align: left;
+    display: flow-root;
+    
+}
+/* eliminamos la linea abajo de cada palabra */
+nav ul{
+    list-style:none;
+}
+/* se dejan los elementos en una sola linea y separados por 1em */
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 1em;
+    
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    line-height: 0;
+    /* font-weight:3em; */
+}
+@media screen and (max-width:800px) {
+    
+        .wrapper img,.texto{
+            display:block ;
+            /* vertical-align: middle; */
+        }
+
+        #Proxima-Charla{
+            background: #a4452c;
+            padding: 2em;
+            color:#FFF;
+        }
+    
+    
+}
+
+
+
+
+/* css para evento 01 */
+.evento-01 img{
+    width: 60%;
+}
+.evento-01 p,h2,h3{
+    text-align: left;
+    margin: 4% 20% 5% 20%;
+}

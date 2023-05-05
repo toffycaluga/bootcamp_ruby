@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    justify-content: center;
+    background:#000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    font: normal normal medium 50px/59px Raleway;
+}
+h2{
+    font: normal normal medium 40px/47px Raleway;
+}
+p{
+    font:normal normal 300 16px/19px Raleway;
+}
+
+header img{
+    width: 100%;
+}
+/* ___info__ */
+#info .wrapper{
+    margin:  auto;
+    padding: 20px;
+}
+.wrapper .text{
+    text-align:left;
+    width: 50%;
+}
+.wrapper img{
+    width:45%
+}
+.wrapper img, .text{
+    display: inline-block;
+    vertical-align: middle
+}
+
+
+/* __CARACTERISTICAS__ */
+#caracteristicas{
+    background: #1E1A13;
+}
+.car_container{
+    margin:auto;
+}
+.car__container .car__item{
+    display: inline-block;
+    margin:20px 50px 20px 20px;
+}
+.car__container .car__item i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    
+}
+
+/* IMAGENES */
+.img__container{
+    margin: auto;
+    padding: 30px;
+}
+.img__container img{
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    height: 150px;
+    margin: 0px 0px 10px 10px ;
+}
+
+footer{
+    background:#1E1A13;
+    padding: 20px;
+
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover{
+    color:#009999;
+    text-decoration:underline;
+}

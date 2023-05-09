@@ -1,0 +1,24 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav {
+    background:#e83e8c 
+
+}
+
+nav img{
+    width: 40%;
+    margin-left: 10%;
+}
+.pago{
+    background:#17a2b8;
+}
+
+footer{
+    background:#e83e8c ;
+    padding:15px;
+}
+
+footer img{
+    width: 5%;    
+}

@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    justify-content: center;
+    text-align: center;
+    color: #000f08;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ___________NAVBAR_________ */
+
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    background:#000f08;
+    text-align: left;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 1em;
+    
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* __ICONO DEL NAV__ */
+
+
+.icono{
+    width:2rem;
+}
+.icono svg{
+    fill: #ffffff;
+}
+
+
+/* __HEADER__ */
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Propiedades agregadas */
+
+    text-shadow:0px  3px 6px #000;
+    text-align: right;
+    color: #FFF;
+    /* margin-top: px; */
+}
+header h1{
+    font-size: 60px;
+    margin-right: .2em;
+}
+header h2{
+    text-align: right;
+    font-size:40px;
+    font-weight: lighter;
+    margin-right: .2em;
+}
+
+
+/*   __UBICACION__ */
+
+
+#ubicacion{
+    padding: 40px;
+}
+
+#ubicacion img{
+    width:300px;
+    align-content: center;
+}
+#ubicacion h2,p{
+    margin:40px 0px 20px 0px;
+    text-align: center;
+}
+
+/* __SECTION__PROXIMA__CHARLA__ */
+
+/* definimos el color de la seccion y el texto, padding y ancho con margen al wrapper para centrarlo */
+
+#Proxima-Charla{
+    background: #a4452c;
+    padding: 100px;
+    color:#FFF;
+}
+
+#Proxima-Charla .wrapper{
+    width: 80%;
+    margin: auto;
+}
+/* definimos el ancho que tendra cada parte de la imagen y el div con clase texto */
+.wrapper img{
+    width: 25%;
+}
+.wrapper .texto{
+    text-align: left;
+    width: 70%;
+    margin-left: 4%;
+}
+/* utilizamos inline-block  para colocar la imagen junto al texto*/
+.wrapper img, .texto{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+/* __eventos__ */
+
+#eventos h2{
+    text-align: center;    
+}   
+
+#eventos .evento h3{
+     text-align: center;
+}
+.evento{
+    display: inline-block;
+}
+.evento img{
+    width: 70%;
+}
+
+/* __FOOTER__ */
+
+/* aplicamos estilos al footer */
+footer{
+    font-family:'Open Sans',sans-serif;
+    text-align: center;
+    background:#000f08;
+    color:#FFFFFF;
+    padding:20px;
+}
+/* le damos tamaño a los iconos del footer */
+i{
+    font-size:30px;
+}
+
+/* ------------------------------------------------------- */
+
+/* css para evento 01 */
+.evento-01 img{
+    width: 60%;
+}
+.evento-01 p,h2,h3{
+    text-align: left;
+    margin: 4% 20% 5% 20%;
+}

@@ -12,8 +12,13 @@
 
 ## Desafios:
 
+### html:
+
+- [desafio curriculum](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/html/desafio_curriculum/)
+- [iguana page](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/html/iguana_page/)
+
 ### Bootstrap:
 
-- [https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/bootstrap/suricata/]
+- [Suricata](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/bootstrap/suricata/)
 
 ⌨️ Escrito con ❤️ por **_Toffy Caluga_** 😊

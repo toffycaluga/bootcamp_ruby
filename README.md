@@ -19,6 +19,6 @@
 
 ### Bootstrap:
 
-- [Suricata](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/bootstrap/suricata/)
+- [Suricata](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/bootstrap/suricata/) -[olivia ros](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/bootstrap/olivia_ros/)
 
 ⌨️ Escrito con ❤️ por **_Toffy Caluga_** 😊

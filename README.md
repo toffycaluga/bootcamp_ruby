@@ -21,8 +21,8 @@
 
 - [Suricata](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/bootstrap/suricata/)
 
--[olivia ros](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/bootstrap/olivia_ros/)
+- [olivia ros](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/bootstrap/olivia_ros/)
 
-[Cuppon](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/bootstrap/cuppon/)
+- [Cuppon](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/bootstrap/cuppon/)
 
 ⌨️ Escrito con ❤️ por **_Toffy Caluga_** 😊

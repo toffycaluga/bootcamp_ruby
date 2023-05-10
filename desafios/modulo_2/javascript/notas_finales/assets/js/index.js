@@ -17,7 +17,7 @@ const instertarHtml = (ramo, notas, promedio) => {
                     <th >${notas[0]}</th>
                     <th >${notas[1]}</th>
                     <th >${notas[2]}</th>
-                    <th >${promedio}</th>
+                    <th >${promedio.toFixed(2)}</th>
                     <td><button class="btn btn-primary" onclick="notas('${ramo}');">agregar notas</button></td>
     `
 }

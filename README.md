@@ -25,4 +25,8 @@
 
 - [Cuppon](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/bootstrap/cuppon/)
 
+### JavaScript:
+
+- [Notas Finales](https://toffycaluga.github.io/bootcamp_ruby/desafios/modulo_2/javascript/notas_finales/)
+
 ⌨️ Escrito con ❤️ por **_Toffy Caluga_** 😊
